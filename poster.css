@@ -1,0 +1,130 @@
+body{
+
+   background:#EFEFEF;
+}
+.head {
+  background: #FC5130;
+  height: 120px;
+  border-radius: 12px;
+
+}
+
+
+.header{
+	color:rgba(255, 255, 255, 1);
+    }
+
+h1{
+  font-family: 'Poppins', sans-serif;  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #f15bb5;
+  text-align: center;
+}
+.aboutp {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #3a1a2d;
+  margin: 1.5em 12.5em 2em;
+}
+.barlines {
+  display: grid;
+  grid-template-columns: 60% 2% 10% 2% 50%;
+  grid-template-rows: 1;
+  border-radius: 5px;
+}
+#barlines1 {
+  height: 70px;
+  background: #FC5130;
+  grid-column-start: 1;
+  border-radius: 5px;
+}
+#barlines2 {
+  height: 70px;
+  background: #FC5130;
+  grid-column-start: 3;
+  border-radius: 5px;
+}
+#barlines3 {
+  height: 70px;
+  background: #FC5130;
+  grid-column-start: 5;
+  border-radius: 5px;
+}
+
+#artists{
+ color: #f15bb5;
+ font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+ margin: 0.5em 12.5em 0.5em;
+}
+
+.cardlong {
+  background: #FC5130;
+  border-radius: 15px;
+  width: 1262px;
+  height: 473px;
+  margin: 0.5em;
+  display: grid;
+  grid-template-columns: 4% 20% 20% 40% 5% 20% 20%;
+  grid-template-rows: 6% 13% 20% 20% 3% 10% 2% 13% 6%;
+}
+#cardfun {
+  display: flex;
+  justify-content: center;
+}
+.long {
+  width: 1162px;
+  height: 283px;
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+transition: transform 1s;
+}
+.long:hover {
+  transform: scale(1.2);
+}
+.funa {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  grid-column-start: 4;
+  grid-row-start: 6;
+  text-align: left;
+}
+.funa-cont {
+  color: #FFFFFF;
+ font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  grid-column-start: 3;
+  grid-column-end: span 2;
+  grid-row-start: 8;
+  margin: 2px 0px 0px;
+  text-align:center;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #2a4222;
+}
+
+.maingrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1em;
+
